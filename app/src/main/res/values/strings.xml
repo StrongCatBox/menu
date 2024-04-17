@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="todo">todo</string>
+    <string name="action1">Action1</string>
+    <string name="action2">Action2</string>
+    <string name="action3">Action3</string>
+    <string name="action4">Action4</string>
+
+</resources>

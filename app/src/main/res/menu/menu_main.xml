@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action1"
+        android:title="action1"
+        android:orderInCategory="10"
+        android:icon="@drawable/ic_launcher_foreground"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action2"
+        android:orderInCategory="20"
+        android:title="action2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action3"
+        android:title="action3"
+        android:orderInCategory="19"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action4"
+        android:title="action4"
+        android:orderInCategory="40"
+        app:showAsAction="never"/>
+
+
+</menu>
